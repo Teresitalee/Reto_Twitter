@@ -1,0 +1,120 @@
+/* Reseteo márgenes browser y color body */
+body {
+	margin: 0 auto;
+	background-color: rgb(173, 187, 185);
+}
+
+
+/* Estilos generales */
+
+.center {
+	text-align: center;
+}
+
+/* Estilos Header */
+header {
+	background-color: rgb(93, 170, 243);
+	text-align: center;
+}
+
+header div img {
+	width: 1em;
+}
+
+/* Estilos imágen y su contenedor */
+
+.photo{
+	text-align: center;
+}
+
+img{
+	width: 100%;
+}
+
+.img {
+	text-align: center;
+	margin: 2em auto;
+	border: 5em solid #FFF;
+	box-shadow: 0 0 0.25em 0 rgba(50, 50, 50, 0.2);
+}
+
+textarea {
+	width: 70%;
+	height: 4em;
+	color: #4E4D53;
+	font-size: 15px;
+	padding: 1em;
+	border-radius: 1em;
+	border: none;
+	margin: 0 auto;
+}
+
+/* Estilos botón agregar */
+#btn {
+	background-color: #66AEC7;
+	border: 0px;
+	cursor: pointer;
+	text-align: center;
+	margin: 3em auto;
+	width: 130px;
+	height: 30px;
+	display: block;
+	color: #FFF;
+}
+
+#btn:hover {
+	background-color: #5590A6;
+}
+
+#btn:focus, textarea:focus{
+	outline: none;
+}
+
+/* Estilos contenedor comentarios */
+#cont {
+	border-radius: 0.4em;
+	margin: 0 auto;
+	color: #4E4D53;
+	text-align: left;
+	margin-bottom: 6em;
+	padding: 0 16%;
+}
+
+#cont span {
+	margin-left: 1em;
+}
+
+#cont div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+    background-color: #FFF;
+    align-content: center;
+}
+
+p {
+	display: inline-block;
+	margin-left: 0.5em;
+}
+
+h1 ,h2 {
+    color: #FFF;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+textarea {
+    width: 200px;
+    height: 100px;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+}
+input {
+    padding: 4px;
+    margin: 10px 0 10px 0;
+}
+section {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
